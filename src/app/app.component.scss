@@ -1,0 +1,27 @@
+ion-menu {
+  --ion-background-color: #bf141e;
+  --ion-text-color: #fff;
+
+  ion-list {
+    background: transparent;
+
+    .list-title {
+      font-family: var(--ion-font-family);
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 24px;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    ion-item {
+      --border-color: #bf141e;
+      --ion-background-color: #bf141e !important;
+    }
+
+    .icon {
+      padding-right: 20px;
+    }
+  }
+}

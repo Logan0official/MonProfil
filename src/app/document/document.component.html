@@ -1,0 +1,203 @@
+<ion-header class="ion-no-border" [translucent]="true">
+  <ion-toolbar class="ion-no-border">
+    <ion-menu-button slot="start">
+      <ion-img src="assets/icons/Hamburger menu.png"></ion-img>
+    </ion-menu-button>
+    <ion-title mode="ios">
+      Mon profil
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="header">
+    <ion-row class="header-row ion-justify-content-around">
+      <ion-col size="3">
+
+        <div class="header-container">
+          <ion-card class="header-card">
+            <ion-img class="header-image" src="assets/icons/User icon.png"></ion-img>
+          </ion-card>
+          <ion-label text-wrap class="header-label">Etat civil</ion-label>
+        </div>
+
+      </ion-col>
+      <ion-col size="3">
+
+        <div class="header-container">
+          <ion-card class="header-card">
+            <ion-img class="header-image" src="assets/icons/Briefcase icon.png"></ion-img>
+          </ion-card>
+          <ion-label text-wrap class="header-label">Postes recherchés</ion-label>
+        </div>
+
+      </ion-col>
+      <ion-col size="3">
+
+        <div class="header-container">
+          <ion-card class="header-card">
+            <ion-img class="header-image" src="assets/icons/Book open icon.png"></ion-img>
+          </ion-card>
+          <ion-label text-wrap class="header-label">Parcours et preférences</ion-label>
+        </div>
+
+      </ion-col>
+      <ion-col size="3">
+
+        <div class="header-container">
+          <ion-card class="header-card">
+            <ion-img class="header-image" src="assets/icons/Folder icon1.png"></ion-img>
+          </ion-card>
+          <ion-label text-wrap class="header-label">Documents</ion-label>
+        </div>
+
+      </ion-col>
+    </ion-row>
+
+    <div class="header-content ion-padding-horizontal">
+      <ion-row>
+        <ion-col size="4">
+          <ion-card class="header-content-card">
+            <ion-card class="header-content-image">
+            </ion-card>
+            <ion-badge>
+              <ion-img src="assets/icons/Camera.png"></ion-img>
+            </ion-badge>
+          </ion-card>
+        </ion-col>
+        <ion-col size="8">
+          <p class="header-content-text">Catherine Maillet</p>
+          <ion-row class="ion-align-items-center">
+            <ion-col size="3.8">
+              <ion-toggle checked mode="ios"></ion-toggle>
+            </ion-col>
+            <ion-col size="8.2">
+              <p class="header-content-toggle">Disponible</p>
+            </ion-col>
+          </ion-row>
+        </ion-col>
+      </ion-row>
+    </div>
+  </div>
+
+  <div class="content">
+    <p class="content-title">Documents</p>
+    <div class="content-container">
+      <ion-row>
+        <ion-col size="6">
+          <ion-row class="ion-align-items-center">
+            <ion-col size="2.5">
+              <ion-card class="content-card">
+                <ion-img class="content-image" src="assets/icons/Document icon.png"></ion-img>
+              </ion-card>
+            </ion-col>
+            <ion-col size="9.5">
+              <p class="content-text">CV*</p>
+            </ion-col>
+          </ion-row>
+          <div class="content-label-badge">
+            <ion-label class="content-label">CV Catherine Maillet</ion-label>
+            <ion-badge><ion-icon name="close"></ion-icon></ion-badge>
+          </div>
+          <ion-card class="content-block">
+            <ion-img class="content-block-image" src="assets/icons/Upload icon.png"></ion-img>
+            <p class="content-block-text">Sélectionnez un fichier</p>
+          </ion-card>
+          <ion-row class="ion-align-items-center">
+            <ion-col size="2.5">
+              <ion-card class="content-card">
+                <ion-img class="content-image" src="assets/icons/Id card icon.png"></ion-img>
+              </ion-card>
+            </ion-col>
+            <ion-col size="9.5">
+              <p class="content-text">Pièce d’identité</p>
+            </ion-col>
+          </ion-row>
+          <ion-card class="content-footer">
+            <div class="content-footer-block">
+              <ion-row>
+                <ion-col size="2">
+                  <div class="icon">
+                    <ion-icon name="add"></ion-icon>
+                  </div>
+                </ion-col>
+                <ion-col size="10">
+                  <ion-label class="content-footer-label">Ajouter un fichier</ion-label>
+                </ion-col>
+              </ion-row>
+            </div>
+            <div class="content-footer-container">
+              <div class="content-footer-badge">
+                <ion-label class="content-label">PI Recto.pdf</ion-label>
+                <ion-badge><ion-icon name="close"></ion-icon></ion-badge>
+              </div>
+              <div class="content-footer-badge">
+                <ion-label class="content-label">PI Verso.png</ion-label>
+                <ion-badge><ion-icon name="close"></ion-icon></ion-badge>
+              </div>
+            </div>
+          </ion-card>
+        </ion-col>
+
+        <ion-col size="6">
+          <ion-row class="ion-align-items-center">
+            <ion-col size="2.5">
+              <ion-card class="content-card">
+                <ion-img class="content-image" src="assets/icons/Path.png"></ion-img>
+              </ion-card>
+            </ion-col>
+            <ion-col size="9.5">
+              <p class="content-text">Lettre de motivation</p>
+            </ion-col>
+          </ion-row>
+          <div class="content-label-badge">
+            <ion-label class="content-label">LM Catherine Maillet</ion-label>
+            <ion-badge><ion-icon name="close"></ion-icon></ion-badge>
+          </div>
+          <ion-card class="content-block">
+            <ion-img class="content-block-image" src="assets/icons/Upload icon.png"></ion-img>
+            <p class="content-block-text">Sélectionnez un fichier</p>
+          </ion-card>
+          <ion-row class="ion-align-items-center">
+            <ion-col size="2.5">
+              <ion-card class="content-card">
+                <ion-img class="content-image" src="assets/icons/Path (1).png"></ion-img>
+              </ion-card>
+            </ion-col>
+            <ion-col size="9.5">
+              <p class="content-text">Diplômes et habilitations</p>
+            </ion-col>
+          </ion-row>
+          <ion-card class="content-footer">
+            <div class="content-footer-block">
+              <ion-row>
+                <ion-col size="2">
+                  <div class="icon">
+                    <ion-icon name="add"></ion-icon>
+                  </div>
+                </ion-col>
+                <ion-col size="10">
+                  <ion-label class="content-footer-label">Ajouter un fichier</ion-label>
+                </ion-col>
+              </ion-row>
+            </div>
+            <div class="content-footer-container">
+              <div class="content-footer-badge">
+                <ion-label class="content-label">BTS graphiste</ion-label>
+                <ion-badge><ion-icon name="close"></ion-icon></ion-badge>
+              </div>
+              <div class="content-footer-badge">
+                <ion-label class="content-label">Certif. animation</ion-label>
+                <ion-badge><ion-icon name="close"></ion-icon></ion-badge>
+              </div>
+            </div>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </div>
+  </div>
+
+  <div class="footer">
+    <hr>
+  </div>
+</ion-content>
